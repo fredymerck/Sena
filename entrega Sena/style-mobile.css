@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+  .carousel-item img {
+    height: 400px;
+  }
+  .card-1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 100px 0px !important;
+  }
+  .card-1 .card {
+    width: 13rem !important;
+  }
+  .banner .title {
+    font-size: 17px !important;
+    font-weight: 800 !important;
+    line-height: 30px !important;
+    text-align: center;
+  }
+  .banner .paragraph {
+    display: block;
+    font-size: 13px;
+    width: 100% !important;
+  }
+  .banner .banner-img {
+    padding: 0 !important;
+  }
+  .footer .tex-footer h5 {
+    font-size: 15px;
+  }
+  .footer .tex-footer p {
+    font-size: 8px;
+  }
+  .footer p {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=style-mobile.css.map */

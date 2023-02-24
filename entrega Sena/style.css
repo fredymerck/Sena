@@ -1,0 +1,115 @@
+body {
+  background: #040C18;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.bg-light {
+  background-color: #ff5800 !important;
+  border-bottom: 2px solid rgb(53, 198, 242);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.bg-light a {
+  color: rgb(255, 254, 254) !important;
+}
+
+.logo {
+  width: 120px;
+  height: 70px;
+}
+
+.carousel-item img {
+  height: 700px;
+}
+
+.card-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+.card-1 .card {
+  display: inline-block !important;
+  height: 300px;
+  box-shadow: 3px 4px 10px #ff5800, -3px -2px 40px rgb(161, 64, 15);
+}
+.card-1 .face-img {
+  width: 40%;
+}
+
+.banner-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.banner-row .banner {
+  border: 1px solid #3eafc5;
+  border-radius: 20px;
+  box-shadow: -8px -11px 20px 0px white, 0px 3px 20px 3px white;
+  margin-top: 35px;
+  padding: 30px;
+  width: 90%;
+}
+.banner-row .banner .title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.banner-row .banner .paragraph {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-align: justify;
+  width: 40%;
+}
+.banner-row .banner .banner-img {
+  padding: 1px 1px 1px 100px;
+}
+
+.acordeon-1 {
+  display: flex;
+  justify-content: center;
+}
+.acordeon-1 .accordion {
+  background: blue;
+  margin: 90px 0px 120px 0px;
+  width: 90%;
+}
+.acordeon-1 .accordion .accordion-button.collapsed {
+  background: #040C18;
+  color: rgb(255, 254, 254);
+}
+.acordeon-1 .accordion .accordion-item {
+  border: 1px solid #db9773;
+}
+.acordeon-1 .accordion .accordion-button::after {
+  background-color: #db9773 !important;
+}
+
+.footer {
+  border-top: 1px solid #ff5800;
+}
+.footer .gpt-3 a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.footer .tex-footer h5 {
+  color: rgb(255, 255, 255);
+}
+.footer p {
+  color: rgb(255, 255, 255);
+}
+.footer .fn {
+  border-top: 1px solid #ff5800;
+  display: grid;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

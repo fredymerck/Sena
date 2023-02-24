@@ -1,0 +1,140 @@
+//var//
+$body: #040C18;
+$nav: #ff5800;
+$blanco: rgb(255, 254, 254);
+$h3: rgb(255, 255, 255);
+//fin-var//
+
+//body//
+body {
+    background: $body;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+//fin-body//
+
+//nav//
+.bg-light {
+    background-color: $nav !important;
+    border-bottom: 2px solid rgb(53 198 242);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    a {
+        color: $blanco !important;
+    }
+}
+//fin-nav//
+
+//logo//
+.logo {
+    width: 120px;
+    height: 70px;
+}
+//fin-lopgo//
+
+//carousel//
+.carousel-item {
+    img {
+        height: 700px;
+    }
+}
+//fin-carousel//
+
+//card//
+.card-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    .card {
+        display: inline-block !important;
+        height: 300px;
+        box-shadow: 3px 4px 10px $nav, -3px -2px 40px rgb(161 64 15);
+    }
+    .face-img {
+        width: 40%;
+    }
+}
+//fin-card//
+
+//banner//
+.banner-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+.banner {
+    border: 1px solid  #3eafc5;
+    border-radius: 20px;
+    box-shadow: -8px -11px 20px 0px white, 0px 3px 20px 3px white;
+    margin-top: 35px;
+    padding: 30px;
+    width: 90%;
+    .title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 62px;
+        line-height: 75px;
+        letter-spacing: -0.04em;
+        background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    .paragraph {
+        color: $h3;
+        display: inline-block;
+        text-align: justify;
+        width: 40%;
+    }
+    .banner-img {
+        padding: 1px 1px 1px 100px;
+    }
+}
+}
+//fin-banner//
+
+//accorion//
+.acordeon-1 {
+    display: flex;
+    justify-content: center;
+    .accordion {
+        background: blue;
+        margin: 90px 0px 120px 0px;
+        width: 90%;
+        .accordion-button.collapsed {
+            background: $body;
+            color: $blanco;
+        }
+        .accordion-item {
+            border: 1px solid #db9773;
+        }
+        .accordion-button::after {
+            background-color: #db9773 !important;
+        }
+    }
+}
+//fin-accordion//
+
+//footer//
+.footer {
+    border-top: 1px solid $nav;
+    .gpt-3 a {
+        color: $h3;
+        text-decoration: none;
+    }
+    .tex-footer h5 {
+        color: $h3;
+    }
+    p {
+        color: $h3;
+    }
+    .fn {
+        border-top: 1px solid $nav;
+        display: grid;
+        justify-content: center;
+    }
+}
+//fin-footer//
